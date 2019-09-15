@@ -4,6 +4,7 @@
 .Rproj.user
 .Ruserdata
 .DS_Store
+*.Rproj
 # Session Data files
 .RData
 
