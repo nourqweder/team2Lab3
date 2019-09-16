@@ -5,9 +5,8 @@ Version: 0.1.0
 Author: Nour El houda Qweder & Samia Butt
 Maintainer: The package maintainer <nouqw898@student.liu.se>
 Description: Implement the euclidean and dijkstra algorihtm in R language
-License: Apache Licence
+License: GNU
 RoxygenNote: 6.1.99.9000
 LazyData: TRUE
 Suggests: testthat
 Encoding: UTF-8
-Depends: R (>= 3.3.0)
