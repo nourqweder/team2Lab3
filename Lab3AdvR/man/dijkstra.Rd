@@ -2,21 +2,27 @@
 % Please edit documentation in R/dijkstra.R
 \name{dijkstra}
 \alias{dijkstra}
-\title{Dijkstra Algorithm}
+\title{Takes a graph and an initial node and calculates the shortest path from the initial node to every other node in the graph.}
 \usage{
 dijkstra(graph, init_node)
 }
 \arguments{
 \item{graph}{A data frame.}
 
-\item{init_node}{A numeric scalar.}
+\item{init_node}{A number.}
 }
 \value{
-Numeric vector, with the shortest distance to each node.
+The vector of the shortest path to every other node from the starting node.
 }
 \description{
-Dijkstra's algorithm is an algorithm for finding the shortest paths between nodes in a graph.
+It is an algorithm used for finding the shortest path from a single node to a single destination node 
+by stopping the algorithm onc e the shortest path to the destination node has been determined.
+}
+\examples{
+dijkstra(wiki_graph, 1)
+dijkstra(wiki_graph, 3)
+
 }
 \references{
-\url{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}
+\href{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}{Dijkstra}
 }
