@@ -15,7 +15,12 @@
 
 #1.1.1 euclidean()
 euclidean <- function(x, y){
-  while (y != 0) {
+  
+  stopifnot(is.numeric(x), is.numeric(y))
+  x = abs(x)
+  y = abs(y)
+  while (y != 0)
+  {
     z = x %% y
     x = y
     y = z
